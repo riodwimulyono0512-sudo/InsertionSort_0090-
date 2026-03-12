@@ -21,8 +21,13 @@ void input()//prosedur input
     cout << "=============================================";
     cout << "==========Masukan Elemen Array==============";
     cout << "=============================================" << endl;
-    
+
     for (int i = 0; i < n; i++){
         cout << "Data ke-" << (i + 1) << ": ";
         cin >> arr[i];
     }
+    }
+    
+void insertionsort(){//prosedur insertion sort
+    int temp;
+    int j;
