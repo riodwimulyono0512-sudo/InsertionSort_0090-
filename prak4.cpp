@@ -49,3 +49,9 @@ void insertionsort(){//prosedur insertion sort
         }
     }
 }
+
+void display(){
+    cout << endl;
+    cout << "\n=================";
+    cout << "\nElemen Array" << endl;
+    cout << "\n=================" << endl;
